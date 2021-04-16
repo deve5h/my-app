@@ -1,4 +1,7 @@
 pipeline {
+    tools {
+        maven 'maven 3.6'
+        }    
     agent any 
     stages {
         stage('Clean') { 
